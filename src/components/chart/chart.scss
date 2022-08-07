@@ -1,3 +1,8 @@
+:root {
+  --fontSizeHeader: 25px;
+  --fontSizeBody: 17px;
+}
+
 .chart {
   flex: 4;
   -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
@@ -7,6 +12,7 @@
 
   .title {
     margin-bottom: 20px;
+    font-size: var(--fontSizeHeader);
   }
 
   .chartGrid {

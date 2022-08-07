@@ -1,3 +1,8 @@
+:root {
+  --fontSizeHeader: 25px;
+  --fontSizeBody: 17px;
+}
+
 .widget {
   display: flex;
   justify-content: space-between;
@@ -7,6 +12,7 @@
   box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
   border-radius: 10px;
   height: 100px;
+  border: 2px solid grey;
 
   .left,
   .right {
@@ -27,7 +33,7 @@
 
     .link {
       width: max-content;
-      font-size: 12px;
+      font-size: var(--fontSizeBody);
       border-bottom: 1px solid gray;
     }
 

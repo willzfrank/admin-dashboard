@@ -27,6 +27,7 @@ const Navbar = () => {
           <div className="item">
             <DarkModeOutlinedIcon
               className="icon"
+              style={{ cursor: 'pointer' }}
               onClick={() => dispatch({ type: 'TOGGLE' })}
             />
           </div>

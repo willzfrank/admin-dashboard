@@ -1,4 +1,10 @@
+:root {
+  --fontSizeHeader: 25px;
+  --fontSizeBody: 17px;
+}
+
 .table {
+  font-size: var(--fontSizeBody);
   .cellWrapper {
     display: flex;
     align-items: center;
